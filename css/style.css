@@ -1,4 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container-fluid {
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 #avatar {
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
+}
+
+#landing, #gallery {
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools {
+    padding: 20px;
+    height: 200px;
+    border: 5px solid #f2f2f2;
+    margin: 20px;
+    width: 75%;
+    color: white;
+}
+
+.nav-link {
+    text-transform: uppercase;
 }
